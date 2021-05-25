@@ -29,10 +29,13 @@ cd deepl-client-filesystem
   * open the extension popup
   * set the backend URL, for example `http://127.0.0.1:9218`
   * save config
+
+[<img src="screenshot-popup.webp" width="30%">](screenshot-popup.webp)
+
 * open https://www.deepl.com/translator
 * you should see a new button `Connect to Backend`
 
-![screenshot](screenshot.webp)
+[<img src="screenshot.webp" width="30%">](screenshot.webp)
 
 * create a test input file
   * `mkdir -p ~/.cache/deepl-client-filesystem/en/de`
