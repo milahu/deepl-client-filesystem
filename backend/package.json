@@ -1,0 +1,13 @@
+{
+  "name": "deepl-client-filesystem-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "fast-glob": "*",
+    "platform-folders": "*"
+  }
+}

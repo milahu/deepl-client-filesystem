@@ -1,0 +1,24 @@
+{
+  "name": "DeepL Connector",
+  "version": "0.0.1",
+  "description": "Connect the DeepL online translator to your offline backend",
+  "homepage_url": "http://github.com/milahu",
+  "manifest_version": 2,
+  "browser_action": { "default_popup": "popup/index.html" },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://www.deepl.com/translator*",
+        "https://www.deepl.com/Translator*"
+      ]
+    }
+  ],
+  "icons": {
+    "24": "/images/logo.svg.24.png",
+    "48": "/images/logo.svg.48.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
